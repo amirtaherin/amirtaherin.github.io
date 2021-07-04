@@ -1,33 +1,16 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Categories on Amir Taherin</title>
-    <link>http://www.cs.rochester.edu/u/ataherin/categories/</link>
-    <description>Recent content in Categories on Amir Taherin</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
-    <language>en-us</language>
-    <lastBuildDate>Wed, 05 Dec 2018 20:34:06 -0400</lastBuildDate>
-    
-	    <atom:link href="http://www.cs.rochester.edu/u/ataherin/categories/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title>Journal</title>
-      <link>http://www.cs.rochester.edu/u/ataherin/categories/journal/</link>
-      <pubDate>Wed, 05 Dec 2018 20:34:06 -0400</pubDate>
-      
-      <guid>http://www.cs.rochester.edu/u/ataherin/categories/journal/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>conference</title>
-      <link>http://www.cs.rochester.edu/u/ataherin/categories/conference/</link>
-      <pubDate>Sun, 05 Apr 2015 20:34:06 -0400</pubDate>
-      
-      <guid>http://www.cs.rochester.edu/u/ataherin/categories/conference/</guid>
-      <description></description>
-    </item>
+    <title>Categories | Academic</title>
+    <link>https://example.com/categories/</link>
+      <atom:link href="https://example.com/categories/index.xml" rel="self" type="application/rss+xml" />
+    <description>Categories</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sun, 13 Dec 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://example.com/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>Categories</title>
+      <link>https://example.com/categories/</link>
+    </image>
     
   </channel>
 </rss>
