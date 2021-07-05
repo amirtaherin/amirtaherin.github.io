@@ -1,34 +1,47 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Publications | Academic</title>
-    <link>https://example.com/publication/</link>
-      <atom:link href="https://example.com/publication/index.xml" rel="self" type="application/rss+xml" />
+    <title>Publications | Amir Taherin</title>
+    <link>https://amirtaherin.github.io/publication/</link>
+      <atom:link href="https://amirtaherin.github.io/publication/index.xml" rel="self" type="application/rss+xml" />
     <description>Publications</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 01 Jul 2013 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 Amir Taherin</copyright><lastBuildDate>Thu, 01 Jul 2021 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://example.com/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <url>https://amirtaherin.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
       <title>Publications</title>
-      <link>https://example.com/publication/</link>
+      <link>https://amirtaherin.github.io/publication/</link>
     </image>
     
     <item>
-      <title>An example conference paper</title>
-      <link>https://example.com/publication/example/</link>
-      <pubDate>Mon, 01 Jul 2013 00:00:00 +0000</pubDate>
-      <guid>https://example.com/publication/example/</guid>
-      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
-  &lt;div&gt;
-    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
-  &lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;alert alert-note&#34;&gt;
-  &lt;div&gt;
-    Create your slides in Markdown - click the &lt;em&gt;Slides&lt;/em&gt; button to check out the example.
-  &lt;/div&gt;
-&lt;/div&gt;
-&lt;p&gt;Supplementary notes can be added here, including &lt;a href=&#34;https://wowchemy.com/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;code, math, and images&lt;/a&gt;.&lt;/p&gt;
-</description>
+      <title>Examining Failures and Repairs on Supercomputers with Multi-GPU Compute Nodes</title>
+      <link>https://amirtaherin.github.io/publication/dsn21/</link>
+      <pubDate>Thu, 01 Jul 2021 00:00:00 +0000</pubDate>
+      <guid>https://amirtaherin.github.io/publication/dsn21/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Energy-Efficient 360-Degree Video Rendering on FPGA via Algorithm-Architecture Co-Design</title>
+      <link>https://amirtaherin.github.io/publication/fpga20/</link>
+      <pubDate>Wed, 01 Jul 2020 00:00:00 +0000</pubDate>
+      <guid>https://amirtaherin.github.io/publication/fpga20/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Reliability-Aware Energy Management in Mixed-Criticality Systems</title>
+      <link>https://amirtaherin.github.io/publication/tsusc18/</link>
+      <pubDate>Sun, 01 Jul 2018 00:00:00 +0000</pubDate>
+      <guid>https://amirtaherin.github.io/publication/tsusc18/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Stretch: Exploiting Service Level Degradation for Energy Management in Mixed-Criticality Systems</title>
+      <link>https://amirtaherin.github.io/publication/rtest15/</link>
+      <pubDate>Wed, 01 Jul 2015 00:00:00 +0000</pubDate>
+      <guid>https://amirtaherin.github.io/publication/rtest15/</guid>
+      <description></description>
     </item>
     
   </channel>
