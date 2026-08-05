@@ -44,3 +44,14 @@
   font-size: 0.75rem;
   color: var(--global-text-color-light);
 }
+
+/* --- navy accent override (site-level; the gem's Sass modules resolve
+       variables inside the gem, so we override the CSS custom properties) --- */
+:root {
+  --global-theme-color: #16437e; /* navy */
+  --global-hover-color: #16437e;
+}
+html[data-theme="dark"] {
+  --global-theme-color: #6b9fd8; /* light navy for dark backgrounds */
+  --global-hover-color: #6b9fd8;
+}
