@@ -3,7 +3,7 @@ layout: none
 permalink: /cv/
 title: CV
 nav: true
-nav_order: 5
+nav_order: 6
 ---
 <!doctype html>
 <html lang="en">
