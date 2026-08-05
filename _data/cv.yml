@@ -1,0 +1,126 @@
+cv:
+  name: Amir Taherin
+  label: PhD Candidate in Electrical and Computer Engineering
+  email: taherin.a@northeastern.edu
+  location: Boston, MA
+  image: ""
+  summary: >-
+    Efficient and dependable AI inference on edge hardware — characterizing LLM, RAG,
+    vision, and vision-language-action workloads across edge SoC generations and building
+    workload-aware runtime adaptation.
+
+  social_networks:
+    - network: GitHub
+      username: amirtaherin
+    - network: LinkedIn
+      username: amir-taherin-7a7a1a90
+
+  sections:
+    Education:
+      - institution: Northeastern University
+        location: Boston, MA
+        url: https://www.northeastern.edu/
+        area: Electrical and Computer Engineering
+        studyType: PhD
+        start_date: 2020
+        end_date: present
+        courses: "Advisors: Prof. David Kaeli and Prof. Yanzhi Wang (NUCAR Laboratory)"
+
+      - institution: University of Rochester
+        location: Rochester, NY
+        area: Computer Science
+        studyType: MS
+        start_date: 2018
+        end_date: 2020
+
+      - institution: Sharif University of Technology
+        location: Tehran, Iran
+        area: Computer Systems Architecture
+        studyType: MS
+        start_date: 2014
+        end_date: 2016
+
+      - institution: K. N. Toosi University of Technology
+        location: Tehran, Iran
+        area: Computer Engineering
+        studyType: BS
+        start_date: 2006
+        end_date: 2011
+
+    Experience:
+      - company: NUCAR Laboratory, Northeastern University
+        position: Graduate Research Assistant
+        location: Boston, MA
+        start_date: 2021
+        end_date: present
+        highlights:
+          - Characterization and adaptive runtimes for LLM, RAG, vision, and vision-language-action inference across three generations of NVIDIA Jetson edge SoCs and datacenter GPUs.
+          - Led multi-student research teams for LLM inference characterization (Hydra) and VLA deployment and benchmarking.
+
+      - company: Goodwill Computing Lab, Northeastern University
+        position: Graduate Research Assistant
+        location: Boston, MA
+        start_date: 2020
+        end_date: 2021
+        highlights:
+          - Reliability analysis of GPU-accelerated supercomputers from multi-year Tsubame-2/3 failure and repair logs (DSN 2021).
+
+      - company: University of Rochester
+        position: Graduate Research & Teaching Assistant
+        location: Rochester, NY
+        start_date: 2018
+        end_date: 2020
+        highlights:
+          - Algorithm–architecture co-design for energy-efficient 360° video rendering on FPGAs (FPGA 2020).
+
+      - company: ESRLab, Sharif University of Technology
+        position: Graduate Research Assistant
+        location: Tehran, Iran
+        start_date: 2014
+        end_date: 2017
+        highlights:
+          - Reliability-aware energy management for mixed-criticality embedded systems (RTEST 2015, IEEE TSUSC 2018).
+
+    Awards:
+      - title: Future Leaders of AI program
+        date: 2026-08-01
+        awarder: ACM AI Leadership Summit
+        summary: Selected for the Future Leaders of AI program; presenting our adaptive edge-RAG paper as a poster, with the paper to appear in the summit proceedings.
+
+      - title: Quantum Excellence in Quantum Simulation
+        date: 2022-07-01
+        awarder: IBM Qiskit Global Summer School
+        summary: ""
+
+      - title: Quantum Excellence in Quantum Machine Learning
+        date: 2021-07-01
+        awarder: IBM Qiskit Global Summer School
+        summary: ""
+
+      - title: National Talent Award for exceptional GPA
+        date: 2015-01-01
+        awarder: Sharif University of Technology
+        summary: ""
+
+    Skills:
+      - name: Programming
+        keywords:
+          - C/C++ (OpenMP, MPI, pthreads)
+          - Python
+          - CUDA
+          - Verilog
+          - Bash
+
+      - name: ML & Systems
+        keywords:
+          - PyTorch
+          - TensorRT-LLM
+          - llama.cpp
+          - NVIDIA Jetson (Xavier, Orin, Thor)
+          - FPGA (Zynq UltraScale+)
+
+    Languages:
+      - language: English
+        fluency: Full professional proficiency
+      - language: Persian
+        fluency: Native speaker

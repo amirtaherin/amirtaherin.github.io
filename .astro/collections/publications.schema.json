@@ -1,0 +1,221 @@
+{
+  "$ref": "#/definitions/publications",
+  "definitions": {
+    "publications": {
+      "type": "object",
+      "properties": {
+        "title": {
+          "type": "string",
+          "minLength": 3
+        },
+        "authors": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "name": {
+                "type": "string",
+                "minLength": 1
+              },
+              "self": {
+                "type": "boolean"
+              },
+              "equalContributionGroup": {
+                "type": "string",
+                "minLength": 1
+              },
+              "affiliation": {
+                "type": "string"
+              },
+              "orcid": {
+                "type": "string",
+                "pattern": "^\\d{4}-\\d{4}-\\d{4}-\\d{3}[\\dX]$",
+                "errorMessage": {
+                  "pattern": "Invalid ORCID format"
+                }
+              }
+            },
+            "required": [
+              "name"
+            ],
+            "additionalProperties": false
+          },
+          "minItems": 1
+        },
+        "equalContributionNote": {
+          "type": "string"
+        },
+        "venue": {
+          "type": "string",
+          "minLength": 2
+        },
+        "venueAbbrev": {
+          "type": "string"
+        },
+        "type": {
+          "type": "string",
+          "enum": [
+            "conference",
+            "journal",
+            "preprint",
+            "proceedings"
+          ]
+        },
+        "year": {
+          "type": "integer",
+          "minimum": 2010,
+          "maximum": 2035
+        },
+        "date": {
+          "anyOf": [
+            {
+              "type": "string",
+              "format": "date-time"
+            },
+            {
+              "type": "string",
+              "format": "date"
+            },
+            {
+              "type": "integer",
+              "format": "unix-time"
+            }
+          ]
+        },
+        "dateDisplay": {
+          "type": "string"
+        },
+        "status": {
+          "type": "string",
+          "enum": [
+            "published",
+            "to-appear",
+            "accepted",
+            "preprint",
+            "under-review"
+          ]
+        },
+        "abstract": {
+          "type": "string"
+        },
+        "summary": {
+          "type": "string"
+        },
+        "doi": {
+          "type": "string",
+          "pattern": "^10\\.\\d{4,9}\\/\\S+$",
+          "errorMessage": {
+            "pattern": "Invalid DOI"
+          }
+        },
+        "pdf": {
+          "type": "string",
+          "format": "uri"
+        },
+        "arxiv": {
+          "type": "string",
+          "pattern": "^\\d{4}\\.\\d{4,5}(v\\d+)?$",
+          "errorMessage": {
+            "pattern": "Invalid arXiv id"
+          }
+        },
+        "code": {
+          "$ref": "#/definitions/publications/properties/pdf"
+        },
+        "artifact": {
+          "$ref": "#/definitions/publications/properties/pdf"
+        },
+        "dataset": {
+          "$ref": "#/definitions/publications/properties/pdf"
+        },
+        "slides": {
+          "$ref": "#/definitions/publications/properties/pdf"
+        },
+        "poster": {
+          "$ref": "#/definitions/publications/properties/pdf"
+        },
+        "video": {
+          "$ref": "#/definitions/publications/properties/pdf"
+        },
+        "bibtex": {
+          "type": "string"
+        },
+        "tags": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "default": []
+        },
+        "categories": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "enum": [
+              "AI Systems",
+              "Edge & Embedded AI",
+              "Robotics & Embodied AI",
+              "Dependable Computing",
+              "HW–SW Co-design"
+            ]
+          },
+          "default": []
+        },
+        "featured": {
+          "type": "boolean",
+          "default": false
+        },
+        "selected": {
+          "type": "boolean",
+          "default": false
+        },
+        "relatedProject": {
+          "type": "string"
+        },
+        "relatedTalk": {
+          "type": "string"
+        },
+        "award": {
+          "type": "string"
+        },
+        "notes": {
+          "type": "string"
+        },
+        "artifactBadges": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "label": {
+                "type": "string"
+              },
+              "verified": {
+                "type": "boolean",
+                "const": true
+              }
+            },
+            "required": [
+              "label",
+              "verified"
+            ],
+            "additionalProperties": false
+          }
+        },
+        "draft": {
+          "type": "boolean",
+          "default": false
+        }
+      },
+      "required": [
+        "title",
+        "authors",
+        "venue",
+        "type",
+        "year",
+        "status"
+      ],
+      "additionalProperties": false
+    }
+  },
+  "$schema": "http://json-schema.org/draft-07/schema#"
+}

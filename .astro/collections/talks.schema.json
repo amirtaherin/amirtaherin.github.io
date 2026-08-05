@@ -1,0 +1,76 @@
+{
+  "$ref": "#/definitions/talks",
+  "definitions": {
+    "talks": {
+      "type": "object",
+      "properties": {
+        "title": {
+          "type": "string"
+        },
+        "event": {
+          "type": "string"
+        },
+        "date": {
+          "anyOf": [
+            {
+              "type": "string",
+              "format": "date-time"
+            },
+            {
+              "type": "string",
+              "format": "date"
+            },
+            {
+              "type": "integer",
+              "format": "unix-time"
+            }
+          ]
+        },
+        "dateDisplay": {
+          "type": "string"
+        },
+        "location": {
+          "type": "string"
+        },
+        "type": {
+          "type": "string",
+          "enum": [
+            "talk",
+            "poster",
+            "invited",
+            "panel"
+          ]
+        },
+        "relatedPublication": {
+          "type": "string"
+        },
+        "slides": {
+          "type": "string",
+          "format": "uri"
+        },
+        "video": {
+          "$ref": "#/definitions/talks/properties/slides"
+        },
+        "upcoming": {
+          "type": "boolean",
+          "default": false
+        },
+        "draft": {
+          "type": "boolean",
+          "default": false
+        },
+        "$schema": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "title",
+        "event",
+        "date",
+        "type"
+      ],
+      "additionalProperties": false
+    }
+  },
+  "$schema": "http://json-schema.org/draft-07/schema#"
+}

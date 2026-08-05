@@ -1,0 +1,113 @@
+{
+  "$ref": "#/definitions/projects",
+  "definitions": {
+    "projects": {
+      "type": "object",
+      "properties": {
+        "title": {
+          "type": "string"
+        },
+        "tagline": {
+          "type": "string",
+          "maxLength": 160
+        },
+        "status": {
+          "type": "string",
+          "enum": [
+            "active",
+            "completed",
+            "forthcoming"
+          ]
+        },
+        "order": {
+          "type": "integer",
+          "default": 99
+        },
+        "featured": {
+          "type": "boolean",
+          "default": false
+        },
+        "collaborators": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "default": []
+        },
+        "venue": {
+          "type": "string"
+        },
+        "platforms": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "default": []
+        },
+        "workloads": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "default": []
+        },
+        "findings": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "minItems": 1
+        },
+        "relatedPublications": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "default": []
+        },
+        "links": {
+          "type": "object",
+          "properties": {
+            "paper": {
+              "type": "string",
+              "format": "uri"
+            },
+            "code": {
+              "$ref": "#/definitions/projects/properties/links/properties/paper"
+            },
+            "artifact": {
+              "$ref": "#/definitions/projects/properties/links/properties/paper"
+            },
+            "dataset": {
+              "$ref": "#/definitions/projects/properties/links/properties/paper"
+            },
+            "docs": {
+              "$ref": "#/definitions/projects/properties/links/properties/paper"
+            }
+          },
+          "additionalProperties": false,
+          "default": {}
+        },
+        "resourcesForthcoming": {
+          "type": "boolean",
+          "default": false
+        },
+        "draft": {
+          "type": "boolean",
+          "default": false
+        },
+        "$schema": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "title",
+        "tagline",
+        "status",
+        "findings"
+      ],
+      "additionalProperties": false
+    }
+  },
+  "$schema": "http://json-schema.org/draft-07/schema#"
+}
