@@ -13,6 +13,7 @@ profile:
     <p>Northeastern University</p>
     <p>Boston, MA</p>
 
+selected_projects: true # includes the top projects from the _projects folder
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 

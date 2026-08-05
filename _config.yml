@@ -16,7 +16,7 @@ footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with the <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
 keywords: Amir Taherin, edge AI, LLM inference, computer architecture, Northeastern University
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
-icon: 🎓 # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
+icon: icon.png # calligraphic 'A' logo from the 2025 site # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 apple_touch_icon: # image name in /assets/img/ (or a rooted path / absolute URL) used for iOS home-screen bookmarks; needs a real 180x180 PNG, since Safari ignores the emoji favicon above. Left empty, iOS falls back to a screenshot of the page.
 
 url: https://amirtaherin.github.io # the base hostname & protocol for your site
