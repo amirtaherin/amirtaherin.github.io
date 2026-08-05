@@ -1,0 +1,79 @@
+# Publications — one entry per paper. To add a paper, copy a block and edit.
+# Groups render in this order: "To appear", "Published", "Preprints".
+# "Amir Taherin" in the authors string is bolded automatically by the template.
+
+- group: To appear
+  items:
+    - title: 'Hydra: Phase-Aware Workload Characterization of LLM Inference across Edge SoC Generations, Backends, and Quantization Levels'
+      authors: 'Amir Taherin, Sana Taghipour Anvari, Charles Amante, Yixiao Chen, Ruben Noroian, Zlatan Feric, Nicolas Bohm Agostini, Pu Zhao, José Cano, Bin Ren, Yanzhi Wang, David Kaeli'
+      venue: 'IEEE International Symposium on Workload Characterization (IISWC), 2026'
+      links: []
+
+    - title: 'RAGMark: A Comprehensive Framework for Benchmarking Retrieval-Augmented Generation Systems'
+      authors: 'Zlatan Feric, Amir Taherin, Bin Ren, Yanzhi Wang, Jennifer Dy, David Kaeli'
+      venue: 'IEEE International Symposium on Workload Characterization (IISWC), 2026'
+      links: []
+
+    - title: 'ALBIREO: Adaptive, Energy-Efficient Inference Framework for Video Object Detection on the Edge'
+      authors: 'Amir Taherin, José Cano, Bin Ren, Yanzhi Wang, David Kaeli'
+      venue: 'ACM/IEEE Symposium on Edge Computing (SEC), 2026'
+      links: []
+
+    - title: 'From Retrieved Context to Runtime Control: Adaptive Compression for Edge-based RAG'
+      authors: 'Zlatan Feric*, Amir Taherin*, Yanzhi Wang, David Kaeli'
+      venue: 'Proceedings of the ACM AI Leadership Summit, 2026'
+      note: '* Equal contribution.'
+      links: []
+
+- group: Published
+  items:
+    - title: 'Cross-Platform Scaling of Vision-Language-Action Models from Edge to Cloud GPUs'
+      authors: 'Amir Taherin, Juyi Lin, Arash Akbari, Arman Akbari, Pu Zhao, Weiwei Chen, David Kaeli, Yanzhi Wang'
+      venue: 'Great Lakes Symposium on VLSI (GLSVLSI), 2026'
+      links:
+        - { label: DOI, url: 'https://doi.org/10.1145/3787109.3816400' }
+        - { label: arXiv, url: 'https://arxiv.org/abs/2509.11480' }
+
+    - title: 'Examining Failures and Repairs on Supercomputers with Multi-GPU Compute Nodes'
+      authors: 'Amir Taherin, Tirthak Patel, Giorgis Georgakoudis, Ignacio Laguna, Devesh Tiwari'
+      venue: 'IEEE/IFIP International Conference on Dependable Systems and Networks (DSN), 2021'
+      links:
+        - { label: PDF, url: 'https://www.osti.gov/servlets/purl/2204463' }
+        - { label: DOI, url: 'https://doi.org/10.1109/DSN48987.2021.00043' }
+        - { label: Code, url: 'http://doi.org/10.5281/zenodo.4606221' }
+
+    - title: 'Energy-Efficient 360-Degree Video Rendering on FPGA via Algorithm-Architecture Co-Design'
+      authors: 'Qiuyue Sun, Amir Taherin, Yawo Siatitse, Yuhao Zhu'
+      venue: 'ACM/SIGDA International Symposium on Field-Programmable Gate Arrays (FPGA), 2020'
+      links:
+        - { label: PDF, url: 'https://dl.acm.org/doi/pdf/10.1145/3373087.3375317' }
+        - { label: DOI, url: 'https://doi.org/10.1145/3373087.3375317' }
+        - { label: Slides, url: 'https://speakerdeck.com/horizonlab/energy-efficient-360-degree-video-rendering-on-fpga-via-algorithm-architecture-co-design' }
+
+    - title: 'Reliability-Aware Energy Management in Mixed-Criticality Systems'
+      authors: 'Amir Taherin, Mohammad Salehi, Alireza Ejlali'
+      venue: 'IEEE Transactions on Sustainable Computing, 2018'
+      links:
+        - { label: DOI, url: 'https://doi.org/10.1109/TSUSC.2018.2801123' }
+
+    - title: 'Stretch: Exploiting Service Level Degradation for Energy Management in Mixed-Criticality Systems'
+      authors: 'Amir Taherin, Mohammad Salehi, Alireza Ejlali'
+      venue: 'CSI Symposium on Real-Time and Embedded Systems and Technologies (RTEST), 2015'
+      links:
+        - { label: DOI, url: 'https://doi.org/10.1109/RTEST.2015.7369846' }
+
+- group: Preprints
+  items:
+    - title: 'Human Cognition in Machines: A Unified Perspective of World Models'
+      authors: 'Timothy Rupprecht*, Pu Zhao*, Amir Taherin*, Arash Akbari*, Arman Akbari*, Yumei He*, Tooba Imtiaz*, Sean Duffy, Juyi Lin, Yixiao Chen, Rahul Chowdhury, Enfu Nan, Yixin Shen, Yifan Cao, Haochen Zeng, Weiwei Chen, Geng Yuan, Jennifer Dy, Sarah Ostadabbas, Xuan Zhang, David Kaeli, Edmund Yeh, Yanzhi Wang'
+      venue: 'arXiv:2604.16592, 2026'
+      note: '* These authors contributed equally.'
+      links:
+        - { label: arXiv, url: 'https://arxiv.org/abs/2604.16592' }
+
+    - title: 'VOTE: Vision-Language-Action Optimization with Trajectory Ensemble Voting'
+      authors: 'Juyi Lin, Amir Taherin, Arash Akbari, Arman Akbari, Lei Lu, Guangyu Chen, Taskin Padir, Xiaomeng Yang, Weiwei Chen, Yiqian Li, Xue Lin, David Kaeli, Pu Zhao, Yanzhi Wang'
+      venue: 'arXiv:2507.05116, 2025'
+      links:
+        - { label: arXiv, url: 'https://arxiv.org/abs/2507.05116' }
+        - { label: Code, url: 'https://github.com/LukeLIN-web/VOTE' }

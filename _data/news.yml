@@ -1,0 +1,15 @@
+# News — newest first. To add news, copy the top block, edit, done.
+- date: 'Aug. 2026'
+  text: 'Selected for the Future Leaders of AI program at the ACM AI Leadership Summit (Atlanta, Aug 30 – Sep 1); presenting our adaptive edge-RAG work as a poster, with the paper to appear in the summit proceedings.'
+
+- date: 'Jul. 2026'
+  text: 'Two papers to appear at IISWC 2026: Hydra (phase-aware LLM inference characterization across edge SoC generations) and RAGMark (benchmarking retrieval-augmented generation, with Zlatan Feric).'
+
+- date: 'Jul. 2026'
+  text: 'ALBIREO, our adaptive energy-efficient inference framework for video object detection, will appear at ACM/IEEE SEC 2026.'
+
+- date: 'Jun. 2026'
+  text: 'Presented "Cross-Platform Scaling of Vision-Language-Action Models from Edge to Cloud GPUs" at GLSVLSI 2026 in Canandaigua, NY.'
+
+- date: 'Apr. 2026'
+  text: 'Our survey "Human Cognition in Machines: A Unified Perspective of World Models" is on arXiv (shared first authorship).'

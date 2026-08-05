@@ -1,0 +1,20 @@
+# Amir Taherin — personal academic site
+# Built natively by GitHub Pages (no local toolchain needed).
+# To update content, edit the files in _data/ and push (or edit on github.com).
+title: Amir Taherin
+description: >-
+  Amir Taherin is a PhD candidate in Electrical and Computer Engineering at
+  Northeastern University working on efficient and dependable AI inference on
+  edge hardware — LLMs, RAG, visual perception, and robotics.
+url: https://amirtaherin.github.io
+email: taherin.a@northeastern.edu
+
+markdown: kramdown
+exclude:
+  - README.md
+  - node_modules
+  - dist
+  - .astro
+  - Gemfile
+  - Gemfile.lock
+  - vendor

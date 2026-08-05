@@ -1,0 +1,20 @@
+# Positions — newest first.
+- role: 'Graduate Research Assistant'
+  org: 'NUCAR Laboratory, Northeastern University'
+  when: '2021–present'
+  desc: 'Characterization and adaptive runtimes for LLM, RAG, vision, and VLA inference on Jetson edge SoCs and datacenter GPUs; led multi-student research teams.'
+
+- role: 'Graduate Research Assistant'
+  org: 'Goodwill Computing Lab, Northeastern University'
+  when: '2020–2021'
+  desc: 'Reliability analysis of GPU-accelerated supercomputers (DSN 2021).'
+
+- role: 'Graduate Research & Teaching Assistant'
+  org: 'University of Rochester'
+  when: '2018–2020'
+  desc: 'Algorithm–architecture co-design for 360° video rendering on FPGAs (FPGA 2020).'
+
+- role: 'Graduate Research Assistant'
+  org: 'ESRLab, Sharif University of Technology'
+  when: '2014–2017'
+  desc: 'Reliability-aware energy management for mixed-criticality embedded systems.'
