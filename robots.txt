@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://amirtaherin.github.io/sitemap.xml
