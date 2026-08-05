@@ -7,7 +7,7 @@ first_name: Amir
 middle_name:
 last_name: Taherin
 contact_note: >
-  You can even add a little note about which of these is the best way to reach you.
+  The best way to reach me is by email.
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   Amir Taherin — PhD candidate in Electrical and Computer Engineering at Northeastern
   University. Efficient and dependable AI inference on edge hardware: LLMs, RAG,
