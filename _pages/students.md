@@ -11,16 +11,12 @@ related_publications: true
 Research is team work. Along the way I have worked closely with — and learned from —
 excellent MS and BS students at Northeastern. This page gives them credit.
 
-#### Robotics team
+#### MS
 
-During the period I led NUCAR's VLA robotics team:
+- **Guangyu Chen** — [Robotics & Embodied AI](/projects/robotics/) — {% cite lin2025vote %}
+- **Yiqian Li** — [Robotics & Embodied AI](/projects/robotics/) — {% cite lin2025vote %}
 
-- **Guangyu Chen** — completed his MS at Northeastern; co-author on VOTE {% cite lin2025vote %}.
-- **Yiqian Li** — completed his MS at Northeastern; co-author on VOTE {% cite lin2025vote %}.
+#### BS
 
-#### Hydra
-
-Working with me on the Hydra measurement campaign:
-
-- **Charles Amante** — co-author on Hydra (IISWC 2026) {% cite taherin2026hydra %}.
-- **Ruben Noroian** — co-author on Hydra (IISWC 2026) {% cite taherin2026hydra %}.
+- **Charles Amante** — [Large Models on Edge Systems](/projects/large-models/) (Hydra) — {% cite taherin2026hydra %}
+- **Ruben Noroian** — [Large Models on Edge Systems](/projects/large-models/) (Hydra) — {% cite taherin2026hydra %}
