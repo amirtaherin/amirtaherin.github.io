@@ -45,13 +45,15 @@
   color: var(--global-text-color-light);
 }
 
-/* --- navy accent override (site-level; the gem's Sass modules resolve
-       variables inside the gem, so we override the CSS custom properties) --- */
+/* --- accent override (site-level; the gem's Sass modules resolve
+       variables inside the gem, so we override the CSS custom properties).
+       Persian Vivid Blue (#1C39BB) from github.com/alijsh/persian-colors;
+       dark mode uses a lightened tint of the same hue for readability. --- */
 :root {
-  --global-theme-color: #16437e; /* navy */
-  --global-hover-color: #16437e;
+  --global-theme-color: #1c39bb; /* Persian Vivid Blue */
+  --global-hover-color: #1c39bb;
 }
 html[data-theme="dark"] {
-  --global-theme-color: #6b9fd8; /* light navy for dark backgrounds */
-  --global-hover-color: #6b9fd8;
+  --global-theme-color: #7d90e5; /* lightened Persian Vivid Blue */
+  --global-hover-color: #7d90e5;
 }
