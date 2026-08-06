@@ -30,7 +30,7 @@ latest_posts:
 
 I am a PhD candidate at Northeastern University's [NUCAR Laboratory](https://ece.northeastern.edu/groups/nucar/),
 advised by Professors [David Kaeli](https://coe.northeastern.edu/people/kaeli-david/) and
-[Yanzhi Wang](https://coe.northeastern.edu/people/wang-yanzhi/). I work on **efficient and
+[Yanzhi Wang](https://www.yanzhiwang.com/). I work on **efficient and
 dependable AI inference on edge hardware**: measuring where large language models, vision,
 and robotic workloads spend their time and energy, and building runtime methods that adapt
 computation to conditions.
