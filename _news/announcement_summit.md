@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Selected for the **Future Leaders of AI** program at the ACM AI Leadership Summit (Atlanta, Aug 30 – Sep 1). I will present our adaptive edge-RAG work as a poster, with the paper to appear in the summit proceedings.
+Selected for the **Future Leaders of AI** Doctoral Consortium at the inaugural ACM AI Leadership Summit (Atlanta, Aug 30 – Sep 2, 2026; consortium on Aug 30 at Georgia Tech). I will present our adaptive edge-RAG work as a poster, with the paper to appear in the summit proceedings.
