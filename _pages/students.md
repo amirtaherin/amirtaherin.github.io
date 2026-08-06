@@ -1,10 +1,10 @@
 ---
 layout: page
 permalink: /students/
-title: students
+title: student collaborators
 description: Student collaborators I have had the privilege of working with.
 nav: true
-nav_order: 4
+nav_order: 5
 related_publications: true
 ---
 
