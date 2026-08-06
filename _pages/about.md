@@ -37,7 +37,7 @@ computation to conditions.
 
 My research interests span edge AI systems, efficient LLM & RAG inference, computer
 architecture and GPU systems, and robotics with vision-language-action models. I was
-selected for the 2026 **Future Leaders of AI** program at the ACM AI Leadership Summit,
+selected for the 2026 **Future Leaders of AI** Doctoral Consortium at the ACM AI Leadership Summit,
 and I expect to complete my PhD in 2026.
 
 #### Education
