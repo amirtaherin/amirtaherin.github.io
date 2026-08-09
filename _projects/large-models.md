@@ -12,7 +12,7 @@ limits on power, memory, and heat. The recurring method: characterize phase by p
 attribute costs to where they arise, then turn what the measurements expose into runtime
 adaptation — always charging the adaptation's own overhead against its savings.
 
-#### Hydra — phase-aware LLM characterization
+#### [Hydra — phase-aware LLM characterization](/projects/hydra/)
 
 A common-schema characterization framework that instruments HuggingFace Transformers and
 llama.cpp with a shared per-prompt timing schema and fuses it with hardware telemetry.
@@ -21,7 +21,10 @@ Jetson SoC generations (Xavier, Orin, Thor), yielding a ~107K-record corpus. Agg
 latency hides key effects: backend structure shifts where latency is introduced,
 quantization cuts memory traffic and energy but does not predict power monotonically, and
 utilization means different things on different SoC generations. To appear at IISWC 2026
-{% cite taherin2026hydra %}.
+{% cite taherin2026hydra %}. Artifact:
+[code](https://github.com/amirtaherin/hydra) ·
+[dataset (DOI 10.5281/zenodo.21844843)](https://doi.org/10.5281/zenodo.21844843) ·
+[project page](/projects/hydra/).
 
 #### RAGMark — stage-level RAG benchmarking
 
