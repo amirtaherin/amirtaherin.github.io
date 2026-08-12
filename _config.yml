@@ -9,9 +9,9 @@ last_name: Taherin
 contact_note: >
   The best way to reach me is by email.
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  Amir Taherin — PhD candidate in Electrical and Computer Engineering at Northeastern
-  University. Efficient and dependable AI inference on edge hardware: LLMs, RAG,
-  visual perception, and robotics.
+  Amir Taherin — PhD candidate in Computer Engineering at Northeastern
+  University. Efficient and dependable AI inference on edge hardware: generative AI (LLMs, RAG),
+  visual perception, robotics, and physical AI.
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with the <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
 keywords: Amir Taherin, edge AI, LLM inference, computer architecture, Northeastern University

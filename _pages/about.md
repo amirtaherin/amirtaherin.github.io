@@ -31,18 +31,19 @@ latest_posts:
 I am a PhD candidate at Northeastern University's [NUCAR Laboratory](https://ece.northeastern.edu/groups/nucar/),
 advised by Professors [David Kaeli](https://coe.northeastern.edu/people/kaeli-david/) and
 [Yanzhi Wang](https://www.yanzhiwang.com/). I work on **efficient and
-dependable AI inference on edge hardware**: measuring where large language models, vision,
+dependable AI inference on edge hardware**: measuring where generative AI, vision,
 and robotic workloads spend their time and energy, and building runtime methods that adapt
 computation to conditions.
 
-My research interests span edge AI systems, efficient LLM & RAG inference, computer
-architecture and GPU systems, and robotics with vision-language-action models. I was
+My research interests span edge AI systems, efficient generative AI (LLM & RAG)
+inference, computer architecture and GPU systems, and physical AI — robotics with
+vision-language-action models. I was
 selected for the 2026 **Future Leaders of AI** Doctoral Consortium at the ACM AI Leadership Summit,
 and I expect to complete my PhD in 2026.
 
 #### Education
 
-- **PhD, Electrical and Computer Engineering** — Northeastern University, 2020–present
+- **PhD, Computer Engineering** — Northeastern University, 2020–present
 - **MS, Computer Science** — University of Rochester
 - **MS, Computer Systems Architecture** — Sharif University of Technology
 - **BS, Computer Engineering** — K. N. Toosi University of Technology

@@ -13,10 +13,10 @@ excellent MS and BS students at Northeastern. This page gives them credit.
 
 #### MS
 
-- **Guangyu Chen** — [Robotics & Embodied AI](/projects/robotics/) — {% cite lin2025vote %}
-- **Yiqian Li** — [Robotics & Embodied AI](/projects/robotics/) — {% cite lin2025vote %}
+- **Guangyu Chen** — [Robotics & Physical AI](/projects/robotics/) — {% cite lin2025vote %}
+- **Yiqian Li** — [Robotics & Physical AI](/projects/robotics/) — {% cite lin2025vote %}
 
 #### BS
 
-- **Charles Amante** — [Large Models on Edge Systems](/projects/large-models/) (Hydra) — {% cite taherin2026hydra %}
-- **Ruben Noroian** — [Large Models on Edge Systems](/projects/large-models/) (Hydra) — {% cite taherin2026hydra %}
+- **Charles Amante** — [Generative AI on Edge Systems](/projects/large-models/) (Hydra) — {% cite taherin2026hydra %}
+- **Ruben Noroian** — [Generative AI on Edge Systems](/projects/large-models/) (Hydra) — {% cite taherin2026hydra %}

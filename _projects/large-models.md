@@ -1,13 +1,13 @@
 ---
 layout: page
-title: Large Models on Edge Systems
-description: Measuring where LLM and RAG inference spends time and energy on edge hardware — and adapting it at runtime
+title: Generative AI on Edge Systems
+description: Measuring where generative-AI inference — LLMs and RAG — spends time and energy on edge hardware, and adapting it at runtime
 importance: 1
 category: research
 related_publications: true
 ---
 
-**Goal:** make large-model inference efficient and predictable on hardware with hard
+**Goal:** make generative-AI inference efficient and predictable on hardware with hard
 limits on power, memory, and heat. The recurring method: characterize phase by phase,
 attribute costs to where they arise, then turn what the measurements expose into runtime
 adaptation — always charging the adaptation's own overhead against its savings.

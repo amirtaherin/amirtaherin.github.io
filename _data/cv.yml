@@ -5,7 +5,7 @@ cv:
   location: Boston, MA
   image: ""
   summary: >-
-    Efficient and dependable AI inference on edge hardware — characterizing LLM, RAG,
+    Efficient and dependable AI inference on edge hardware — characterizing generative-AI (LLM, RAG),
     vision, and vision-language-action workloads across edge SoC generations and building
     workload-aware runtime adaptation.
 
@@ -20,7 +20,7 @@ cv:
       - institution: Northeastern University
         location: Boston, MA
         url: https://www.northeastern.edu/
-        area: Electrical and Computer Engineering
+        area: Computer Engineering
         studyType: PhD
         start_date: 2020
         end_date: present

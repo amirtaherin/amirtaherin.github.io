@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Robotics & Embodied AI
+title: Robotics & Physical AI
 description: Vision-language-action models from edge to cloud — and where world models take embodied intelligence next
 importance: 3
 category: research
