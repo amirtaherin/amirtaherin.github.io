@@ -57,3 +57,7 @@ html[data-theme="dark"] {
   --global-theme-color: #7d90e5; /* lightened Persian Vivid Blue */
   --global-hover-color: #7d90e5;
 }
+
+/* Bold text inside links must keep the link color (the theme's
+   `strong { color: var(--global-text-color) }` otherwise wins). */
+a strong { color: inherit; }
