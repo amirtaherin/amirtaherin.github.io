@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: PhD Candidate, Electrical and Computer Engineering · <a href='https://www.northeastern.edu/'>Northeastern University</a>
+subtitle: PhD, Electrical and Computer Engineering · <a href='https://www.northeastern.edu/'>Northeastern University</a>
 
 profile:
   align: right
@@ -28,7 +28,8 @@ latest_posts:
   limit: 3
 ---
 
-I am a PhD candidate at Northeastern University's [NUCAR Laboratory](https://ece.northeastern.edu/groups/nucar/),
+I received my PhD in Computer Engineering from Northeastern University (2026), where I
+worked in the [NUCAR Laboratory](https://ece.northeastern.edu/groups/nucar/)
 advised by Professors [David Kaeli](https://coe.northeastern.edu/people/kaeli-david/) and
 [Yanzhi Wang](https://www.yanzhiwang.com/). I work on **efficient and
 dependable AI inference on edge hardware**: measuring where generative AI, vision,
@@ -38,19 +39,18 @@ computation to conditions.
 My research interests span edge AI systems, efficient generative AI (LLM & RAG)
 inference, computer architecture and GPU systems, and physical AI — robotics with
 vision-language-action models. I was
-selected for the 2026 [**Future Leaders of AI**](https://aisummit.acm.org/future-leaders) Doctoral Consortium at the ACM AI Leadership Summit,
-and I expect to complete my PhD in 2026.
+selected for the 2026 [**Future Leaders of AI**](https://aisummit.acm.org/future-leaders) Doctoral Consortium at the ACM AI Leadership Summit.
 
 #### Education
 
-- **PhD, Computer Engineering** — Northeastern University, 2020–present
+- **PhD, Computer Engineering** — Northeastern University, 2020–2026
 - **MS, Computer Science** — University of Rochester
 - **MS, Computer Systems Architecture** — Sharif University of Technology
 - **BS, Computer Engineering** — K. N. Toosi University of Technology
 
 #### Positions
 
-- **Graduate Research Assistant**, NUCAR Laboratory, Northeastern University (2021–present)
+- **Graduate Research Assistant**, NUCAR Laboratory, Northeastern University (2021–2026)
 - **Graduate Research Assistant**, Goodwill Computing Lab, Northeastern University (2020–2021)
 - **Graduate Research & Teaching Assistant**, University of Rochester (2018–2020)
 - **Graduate Research Assistant**, ESRLab, Sharif University of Technology (2014–2017)
